@@ -1,0 +1,461 @@
+{
+  "interchanges": [
+    {
+      "ISA_01_AuthorizationQualifier": "00",
+      "ISA_02_AuthorizationInformation": "          ",
+      "ISA_03_SecurityQualifier": "00",
+      "ISA_04_SecurityInformation": "          ",
+      "ISA_05_SenderQualifier": "30",
+      "ISA_06_SenderId": "86-0773195     ",
+      "ISA_07_ReceiverQualifier": "30",
+      "ISA_08_ReceiverId": "474660944      ",
+      "ISA_09_Date": "220722",
+      "ISA_10_Time": "0500",
+      "ISA_11_RepetitionSeparator": "^",
+      "ISA_12_Version": "00501",
+      "ISA_13_InterchangeControlNumber": "000000001",
+      "ISA_14_AcknowledgmentRequested": "1",
+      "ISA_15_TestIndicator": "T",
+      "SE_01_IncludedSegment": "47",
+      "SE_02_SetControl": "0001     ",
+      "GE_01_TransactionNumber": "1",
+      "GE_02_GroupControl": "1        ",
+      "IEA_01_FunctionalGroup": "1",
+      "IEA_02_InterchangeControl": "000000001",
+      "functional_groups": [
+        {
+          "GS_01_FunctionalIdentifierCode": "BE",
+          "GS_02_ApplicationSenderCode": "86-0773195     ",
+          "GS_03_ApplicationReceiverCode": "474660944      ",
+          "GS_04_Date": "20220722",
+          "GS_05_Time": "0500",
+          "GS_06_GroupControlNumber": "1        ",
+          "GS_07_ResponsibleAgencyCode": "X",
+          "GS_08_Version": "005010X220A1",
+          "transactions": [
+            {
+              "ST_01_TransactionSetIdentifierCode": "834",
+              "ST_02_TransactionSetControlNumber": "0001     ",
+              "ST_03_ImplementationConventionReference": "005010X220A1",
+              "segments": [
+                {
+                  "BGN_01": "00",
+                  "BGN_02": "86-0773195",
+                  "BGN_03": "20220722",
+                  "BGN_04": "0500",
+                  "BGN_08": "2"
+                },
+                {
+                  "HD_01": "001",
+                  "HD_03": "IHC",
+                  "HD_04": "abcd123456",
+                  "HD_05": "policyPending",
+                  "HD_07": "true",
+                  "HD_08": "PREC-ICI",
+                  "HD_09": "ACCIDENT&HEALTH",
+                  "HD_10": "ES",
+                  "HD_11": "10000",
+                  "HD_12": "false",
+                  "HD_13": "T71000",
+                  "HD_15": "Base Specified Conditions Plan",
+                  "HD_16": "True"
+                },
+                {
+                  "STS_02": "2022-07-20",
+                  "STS_09": "US",
+                  "STS_10": "FL",
+                  "STS_11": "NEW",
+                  "STS_13": "FL",
+                  "STS_14": "2022-07-20",
+                  "STS_16": "TIER_ONE",
+                  "STS_17": "False",
+                  "STS_18": {
+                    "STS_18_01": "2022-07-22 11",
+                    "STS_18_02": "31",
+                    "STS_18_03": "05.550"
+                  },
+                  "STS_19": "true",
+                  "STS_20": {
+                    "STS_20_01": "2022-07-22 11",
+                    "STS_20_02": "31",
+                    "STS_20_03": "05.550"
+                  },
+                  "STS_21": "False",
+                  "STS_22": "False",
+                  "STS_23": "False"
+                },
+                {
+                  "RT_01": "210.00",
+                  "RT_02": "195.00",
+                  "RT_03": "17.50",
+                  "RT_04": "16.25",
+                  "RT_05": "Monthly",
+                  "RT_06": "USD"
+                },
+                {
+                  "AG_01": "Aflac",
+                  "AG_02": "sales_portal",
+                  "AG_03": "Aflac",
+                  "AG_04": "Aflac",
+                  "AG_05": "sales_portal",
+                  "AG_06": "Aflac",
+                  "AG_07": "false",
+                  "AG_08": "Aflac_Default",
+                  "AG_10": "Aflac",
+                  "AG_11": "Aflac",
+                  "AG_12": "Aflac",
+                  "AG_13": "eComm",
+                  "AG_14": "eComm"
+                },
+                {
+                  "SG_01": "True",
+                  "SG_02": "E_SIGN",
+                  "SG_03": {
+                    "SG_03_01": "2022-07-20 11",
+                    "SG_03_02": "31",
+                    "SG_03_03": "05.550"
+                  },
+                  "SG_04": "arka sarkar",
+                  "SG_05": "255.255.68.190",
+                  "SG_07": "False"
+                },
+                {
+                  "INS-2000_loop": [
+                    {
+                      "INS_02": "20000000016",
+                      "INS_03": "True",
+                      "INS_04": "SELF",
+                      "INS_05": "False"
+                    },
+                    {
+                      "NM1-2100_loop": [
+                        {
+                          "NM1_03": "arka",
+                          "NM1_04": "sarkar",
+                          "NM1_06": "235436459"
+                        },
+                        {
+                          "PER_01": "7091088456",
+                          "PER_03": "imarka@gmail.com",
+                          "PER_04": "PERS"
+                        },
+                        {
+                          "N3_01": "False",
+                          "N3_02": "24, row street"
+                        },
+                        {
+                          "N4_01": "miami",
+                          "N4_02": "FL",
+                          "N4_03": "56789",
+                          "N4_04": "FL",
+                          "N4_05": "US",
+                          "N4_06": "mailing"
+                        },
+                        {
+                          "DMG_01": "M",
+                          "DMG_05": "1988-03-01"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "INS-2000_loop": [
+                    {
+                      "INS_02": "20000000017",
+                      "INS_03": "False",
+                      "INS_04": "1",
+                      "INS_05": "False"
+                    },
+                    {
+                      "NM1-2100_loop": [
+                        {
+                          "NM1_03": "rina",
+                          "NM1_04": "sarkar"
+                        },
+                        {
+                          "PER_01": "7023458456",
+                          "PER_03": "imrina@gmail.com",
+                          "PER_04": "PERS"
+                        },
+                        {
+                          "N3_01": "True"
+                        },
+                        {
+                          
+                        },
+                        {
+                          "DMG_01": "F",
+                          "DMG_05": "1989-06-11"
+                        },
+                        {
+                          "CT_02": "False",
+                          "CT_04": "True",
+                          "CT_05": "255.255.68.190",
+                          "CT_06": {
+                            "CT_06_01": "2022-07-20 11",
+                            "CT_06_02": "35",
+                            "CT_06_03": "05.550"
+                          },
+                          "CT_08": "False",
+                          "CT_09": "False",
+                          "CT_10": "False",
+                          "CT_13": "No"
+                        },
+                        {
+                          
+                        },
+                        "RIDER":[
+						{
+                          "RID": "AflacCIEventRecoveryBenefitRider",
+						  "RIDPR": "1.25"
+						},
+                        {
+                          "RID": "AflacCIEventRecoveryBenefitRider",
+						  "RIDPR": "1.25"
+						},						
+						  ........
+						],
+                        {
+                          "PBID_01": "pciCreditCard",
+                          "PBID_02": "42879231",
+                          "PBID_03": "abc123456",
+                          "PBID_04": "AS",
+                          "PBID_05": "2025-08-31",
+                          "PBID_06": "4798",
+                          "PBID_07": "American Express",
+                          "PBID_08": "arka sarkar",
+                          "PBID_10": "US",
+                          "PBID_11": "FL",
+                          "PBID_12": "miami",
+                          "PBID_13": "56789",
+                          "PBID_14": "24 row street"
+                        },
+                        "UWRQ" : [
+						{
+                          "QID": "externalReplacement",
+						  "ANS": "false
+						},
+						{
+                          "QID": "externalReplacement",
+						  "ANS": "false
+						}
+						................
+						],
+                      ]
+                    },
+                    {
+                      "HD-2300_loop": [
+                        {
+                          "HD_01": "001",
+                          "HD_03": "IHC",
+                          "HD_04": "xyz123456",
+                          "HD_05": "policyPending",
+                          "HD_07": "true",
+                          "HD_08": "PREC-IC",
+                          "HD_09": "ACCIDENT&HEALTH",
+                          "HD_10": "ES",
+                          "HD_11": "10000",
+                          "HD_12": "false",
+                          "HD_13": "T71000",
+                          "HD_15": "Base Specified Conditions Plan",
+                          "HD_16": "True"
+                        },
+                        {
+                          "STS_02": "2022-07-20",
+                          "STS_09": "US",
+                          "STS_10": "FL",
+                          "STS_11": "NEW",
+                          "STS_13": "FL",
+                          "STS_14": "2022-07-20",
+                          "STS_16": "TIER_ONE",
+                          "STS_17": "False",
+                          "STS_18": {
+                            "STS_18_01": "2022-07-22 11",
+                            "STS_18_02": "31",
+                            "STS_18_03": "05.550"
+                          },
+                          "STS_19": "true",
+                          "STS_20": {
+                            "STS_20_01": "2022-07-22 11",
+                            "STS_20_02": "31",
+                            "STS_20_03": "05.550"
+                          },
+                          "STS_21": "False",
+                          "STS_22": "False",
+                          "STS_23": "False"
+                        },
+                        {
+                          "RT_01": "210.00",
+                          "RT_02": "195.00",
+                          "RT_03": "17.50",
+                          "RT_04": "16.25",
+                          "RT_05": "Monthly",
+                          "RT_06": "USD"
+                        },
+                        {
+                          "AG_01": "Aflac",
+                          "AG_02": "sales_portal",
+                          "AG_03": "Aflac",
+                          "AG_04": "Aflac",
+                          "AG_05": "sales_portal",
+                          "AG_06": "Aflac",
+                          "AG_07": "false",
+                          "AG_08": "Aflac_Default",
+                          "AG_10": "Aflac",
+                          "AG_11": "Aflac",
+                          "AG_12": "Aflac",
+                          "AG_13": "eComm",
+                          "AG_14": "eComm"
+                        },
+                        {
+                          "SG_01": "True",
+                          "SG_02": "E_SIGN",
+                          "SG_03": {
+                            "SG_03_01": "2022-07-20 11",
+                            "SG_03_02": "31",
+                            "SG_03_03": "05.550"
+                          },
+                          "SG_04": "riya sarkar",
+                          "SG_05": "255.255.68.190",
+                          "SG_07": "False"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "INS-2000_loop": [
+                    {
+                      "INS_02": "20000000018",
+                      "INS_03": "True",
+                      "INS_04": "SELF",
+                      "INS_05": "False"
+                    },
+                    {
+                      "NM1-2100_loop": [
+                        {
+                          "NM1_03": "riya",
+                          "NM1_04": "sarkar",
+                          "NM1_06": "123456789"
+                        },
+                        {
+                          "PER_01": "7091088456",
+                          "PER_03": "imarka@gmail.com",
+                          "PER_04": "PERS"
+                        },
+                        {
+                          "N3_01": "False",
+                          "N3_02": "24, row street"
+                        },
+                        {
+                          "N4_01": "miami",
+                          "N4_02": "FL",
+                          "N4_03": "56789",
+                          "N4_04": "FL",
+                          "N4_05": "US",
+                          "N4_06": "mailing"
+                        },
+                        {
+                          "DMG_01": "M",
+                          "DMG_05": "1988-03-01"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "INS-2000_loop": [
+                    {
+                      "INS_02": "20000000019",
+                      "INS_03": "False",
+                      "INS_04": "1",
+                      "INS_05": "False"
+                    },
+                    {
+                      "NM1-2100_loop": [
+                        {
+                          "NM1_03": "dependent",
+                          "NM1_04": "sarkar"
+                        },
+                        {
+                          "PER_01": "7023458456",
+                          "PER_03": "imdep@gmail.com",
+                          "PER_04": "PERS"
+                        },
+                        {
+                          "N3_01": "True"
+                        },
+                        {
+                          
+                        },
+                        {
+                          "DMG_01": "F",
+                          "DMG_05": "1989-06-11"
+                        },
+                        {
+                          "CT_02": "False",
+                          "CT_04": "True",
+                          "CT_05": "255.255.68.190",
+                          "CT_06": {
+                            "CT_06_01": "2022-07-20 11",
+                            "CT_06_02": "35",
+                            "CT_06_03": "05.550"
+                          },
+                          "CT_08": "False",
+                          "CT_09": "False",
+                          "CT_10": "False",
+                          "CT_13": "No"
+                        },
+                        {
+                          
+                        },
+                        "RIDER":[
+						{
+                          "RID": "AflacCIEventRecoveryBenefitRider",
+						  "RIDPR": "1.25"
+						},
+                        {
+                          "RID": "AflacCIEventRecoveryBenefitRider",
+						  "RIDPR": "1.25"
+						},						
+						  ........
+						],
+                        {
+                          "PBID_01": "pciCreditCard",
+                          "PBID_02": "42879231",
+                          "PBID_03": "xyz123456",
+                          "PBID_04": "AS",
+                          "PBID_05": "2025-08-31",
+                          "PBID_06": "4798",
+                          "PBID_07": "American Express",
+                          "PBID_08": "arka sarkar",
+                          "PBID_10": "US",
+                          "PBID_11": "FL",
+                          "PBID_12": "miami",
+                          "PBID_13": "56789",
+                          "PBID_14": "24 row street"
+                        },
+                        "UWRQ" : [
+						{
+                          "QID": "externalReplacement",
+						  "ANS": "false
+						},
+						{
+                          "QID": "externalReplacement",
+						  "ANS": "false
+						}
+						................
+						],
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
