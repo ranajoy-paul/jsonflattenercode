@@ -24,14 +24,6 @@
 		<tag>HEAD</tag>
 	</scm>
 
-	<developers>
-		<developer>
-			<id>wnameless</id>
-			<name>Wei-Ming Wu</name>
-			<email>wnameless@gmail.com</email>
-		</developer>
-	</developers>
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
